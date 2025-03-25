@@ -12,7 +12,11 @@ export default {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        pretendard: ['var(--font-pretendard)'],
+      },
+    },
   },
   plugins: [require("tailwind-scrollbar-hide")],
 } satisfies Config;
