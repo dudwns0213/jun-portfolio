@@ -1,8 +1,10 @@
 'use client';
 
 import { motion } from 'motion/react';
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
+import { SiVelog } from 'react-icons/si';
 
+import Link from 'next/link';
 const Footer = () => {
   return (
     <motion.div
@@ -15,7 +17,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <h3 className="text-lg font-semibold text-gray-800 dark:text-white">
-              개발자 포트폴리오
+              Jun&apos;s Portfolio
             </h3>
             <p className="text-gray-600 dark:text-gray-300">
               © {new Date().getFullYear()} All rights reserved.
@@ -23,30 +25,22 @@ const Footer = () => {
           </div>
 
           <div className="flex space-x-4">
-            <a
-              href="https://github.com/yourusername"
+            <Link
+              href="https://github.com/dudwns0213"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition"
             >
               <FaGithub size={24} />
-            </a>
-            <a
-              href="https://linkedin.com/in/yourusername"
+            </Link>
+            <Link
+              href="https://velog.io/@jun_o_o/posts"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition"
             >
-              <FaLinkedin size={24} />
-            </a>
-            <a
-              href="https://twitter.com/yourusername"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition"
-            >
-              <FaTwitter size={24} />
-            </a>
+              <SiVelog size={24} />
+            </Link>
           </div>
         </div>
       </div>
