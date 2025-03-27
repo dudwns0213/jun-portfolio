@@ -2,11 +2,8 @@
 
 import Link from 'next/link';
 import { motion } from 'motion/react';
-import usePortfolioStore from '@/lib/store/portfolioStore';
 
 const Navbar = () => {
-  const { darkMode, toggleDarkMode } = usePortfolioStore();
-
   return (
     <motion.nav
       initial={{ opacity: 0, y: -20 }}
@@ -19,7 +16,7 @@ const Navbar = () => {
           href="/"
           className="text-xl font-bold text-gray-900 dark:text-white"
         >
-          My Portfolio
+          Jun&apos;s Protfolio
         </Link>
 
         <div className="flex items-center space-x-6">
@@ -35,24 +32,6 @@ const Navbar = () => {
           >
             Projects
           </Link>
-          <Link
-            href="/blog"
-            className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition"
-          >
-            Blog
-          </Link>
-          <Link
-            href="/contact"
-            className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition"
-          >
-            Contact
-          </Link>
-          <button
-            onClick={toggleDarkMode}
-            className="p-2 rounded-full bg-gray-200 dark:bg-gray-700"
-          >
-            {darkMode ? '🌞' : '🌙'}
-          </button>
         </div>
       </div>
     </motion.nav>
