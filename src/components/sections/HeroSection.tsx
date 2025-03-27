@@ -42,9 +42,9 @@ const fadeInVariants = {
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-300 items-center justify-center overflow-hidden">
       <GradientWaveBackground>
-        <div className="mx-auto pt-[50vh] px-4 text-center relative z-10">
+        <div className="mx-auto pt-120 px-4 text-center relative z-10">
           <motion.div
             initial="hidden"
             animate="visible"
