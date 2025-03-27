@@ -45,7 +45,7 @@ const AboutSection = () => {
               >
                 안녕하세요! 저는{' '}
                 <span className="text-blue-500 dark:text-blue-400">
-                  소통을 중요시하는
+                  소통을 중요시하는{' '}
                 </span>
                 개발자입니다. 기술적인 성장을 중요하게 생각하고, 팀 프로젝트에서
                 코드 리뷰를 주로 이끌어갔습니다.

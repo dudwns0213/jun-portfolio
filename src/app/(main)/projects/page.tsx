@@ -88,7 +88,6 @@ export default function ProjectsPage() {
         'Next.js와 Tailwind CSS를 사용하여 제작한 개인 포트폴리오 웹사이트',
       tags: ['Next.js', 'Tailwind CSS', 'TypeScript'],
       imageUrl: '/image/portfolio.png',
-      projectUrl: 'https://myportfolio.com',
       githubUrl: 'https://github.com/dudwns0213/jun-portfolio',
     },
     {
@@ -155,8 +154,8 @@ export default function ProjectsPage() {
         'Zustand',
       ],
       imageUrl: '/image/wiki_viki_logo.png',
-      projectUrl: 'https://github.com/wiki-viki/wiki-viki',
-      githubUrl: 'https://wiki-viki.vercel.app/',
+      projectUrl: 'https://wiki-viki.vercel.app/',
+      githubUrl: 'https://github.com/wiki-viki/wiki-viki',
     },
   ];
 
