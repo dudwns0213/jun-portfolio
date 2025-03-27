@@ -1,0 +1,18 @@
+[
+  {
+    "id": "nextjs-optimization",
+    "title": "Next.js 성능 최적화 기법",
+    "excerpt": "Next.js 애플리케이션의 성능을 향상시키는 다양한 방법을 소개합니다.",
+    "date": "2023-05-15",
+    "tags": ["Next.js", "성능 최적화"],
+    "readTime": "5분"
+  },
+  {
+    "id": "react-hooks",
+    "title": "React Hooks 완벽 가이드",
+    "excerpt": "React Hooks의 기본 개념부터 고급 사용법까지 다룹니다.",
+    "date": "2023-04-02",
+    "tags": ["React", "Hooks"],
+    "readTime": "8분"
+  }
+]
