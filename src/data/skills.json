@@ -1,0 +1,38 @@
+[
+  {
+    "name": "JavaScript",
+    "level": 90,
+    "category": "frontend",
+    "icon": "/images/skills/javascript.svg"
+  },
+  {
+    "name": "TypeScript",
+    "level": 85,
+    "category": "frontend",
+    "icon": "/images/skills/typescript.svg"
+  },
+  {
+    "name": "React",
+    "level": 88,
+    "category": "frontend",
+    "icon": "/images/skills/react.svg"
+  },
+  {
+    "name": "Next.js",
+    "level": 80,
+    "category": "frontend",
+    "icon": "/images/skills/nextjs.svg"
+  },
+  {
+    "name": "Node.js",
+    "level": 75,
+    "category": "backend",
+    "icon": "/images/skills/nodejs.svg"
+  },
+  {
+    "name": "TailwindCSS",
+    "level": 85,
+    "category": "frontend",
+    "icon": "/images/skills/tailwindcss.svg"
+  }
+]

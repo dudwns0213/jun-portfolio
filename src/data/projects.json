@@ -1,0 +1,32 @@
+[
+  {
+    "id": "portfolio",
+    "title": "포트폴리오 웹사이트",
+    "description": "Next.js와 TailwindCSS를 사용하여 제작한 개인 포트폴리오 웹사이트",
+    "technologies": ["Next.js", "React", "TailwindCSS", "Framer Motion"],
+    "imageUrl": "/projects/portfolio.jpg",
+    "githubUrl": "https://github.com/yourusername/portfolio",
+    "demoUrl": "https://yourportfolio.com",
+    "features": [
+      "반응형 디자인",
+      "다크 모드 지원",
+      "프로젝트 갤러리",
+      "연락처 폼"
+    ]
+  },
+  {
+    "id": "ecommerce",
+    "title": "전자상거래 플랫폼",
+    "description": "React와 Node.js를 사용한 풀스택 전자상거래 플랫폼",
+    "technologies": ["React", "Node.js", "Express", "MongoDB"],
+    "imageUrl": "/projects/ecommerce.jpg",
+    "githubUrl": "https://github.com/yourusername/ecommerce",
+    "demoUrl": "https://ecommerce-demo.com",
+    "features": [
+      "상품 검색 및 필터링",
+      "장바구니 기능",
+      "결제 시스템 통합",
+      "관리자 대시보드"
+    ]
+  }
+]
