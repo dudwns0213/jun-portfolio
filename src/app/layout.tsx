@@ -16,6 +16,9 @@ const pretendard = localFont({
 export const metadata: Metadata = {
   title: '배영준 | 프론트엔드 개발자 포트폴리오 ',
   description: '주니어 개발자 포트폴리오입니다!',
+  icons: {
+    icon: '/star.gif',
+  },
 };
 export default function RootLayout({
   children,
