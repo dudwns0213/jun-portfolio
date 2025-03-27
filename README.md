@@ -1,8 +1,12 @@
-# 프론트엔드 개발자 포트폴리오
+
 
 <div align="center">
-  <img src="/public/image/portfolio.png" alt="포트폴리오 미리보기" width="600">
+    <h1>프론트엔드 개발자 포트폴리오</h1>
+    <img src="/public/image/portfolio.png" alt="포트폴리오 미리보기" width="600">
 </div>
+
+
+<br><br>
 
 ## 📌 프로젝트 개요
 
