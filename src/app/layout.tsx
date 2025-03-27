@@ -1,10 +1,13 @@
 import type { Metadata } from 'next';
+import Navbar from '@/components/layout/Navbar';
+import Footer from '@/components/layout/Footer';
+import { AnimatePresence } from 'motion/react';
 
 import localFont from 'next/font/local';
 import '@/styles/globals.css';
 
 const pretendard = localFont({
-  src: '../../fonts/PretendardVariable.woff2',
+  src: '../font/PretendardVariable.woff2',
   display: 'swap',
   weight: '45 920',
   variable: '--font-pretendard',
@@ -20,9 +23,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${pretendard.variable} font-pretendard`}>
-        {children}
+    <html lang="ko">
+      <body
+        className={`${pretendard.variable} font-pretendard bg-white dark:bg-gray-900 transition-colors duration-300`}
+      >
+        <Navbar />
+        <AnimatePresence mode="wait">{children}</AnimatePresence>
+        <Footer />
       </body>
     </html>
   );
